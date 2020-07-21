@@ -1,0 +1,19 @@
+vendors 
+ - all 3rd party css & js
+
+assets 
+ - custom css, img & js
+
+ grid.css
+	- built in css classes, helps to design responsive 
+
+ html5shiv.js
+
+ respond.js
+ 	- provide a fast and lightweight script to enable responsive web designs in browsers that don’t support CSS3 Media Queries – in particular, Internet Explorer 8 and under.
+
+selectivizr.js
+	- emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8. 
+
+waypoints.js
+	- provide sticky menu
