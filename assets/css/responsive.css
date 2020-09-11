@@ -1,0 +1,147 @@
+@media only screen and (max-width: 1200px) {
+  header {
+    height: 75vh;
+  }
+  .row {
+    margin: 0 2rem;
+  }
+  .hero-text-box {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-menu span {
+    display: block;
+  }
+  html {
+    font-size: 57.5%;
+  }
+  body {
+    color: red;
+  }
+  header {
+    height: 65vh;
+  }
+
+  .main-nav {
+    display: none;
+  }
+  .client-photo,
+  .client-review {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  form {
+    margin-top: 4rem;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  html {
+    font-size: 57.5%;
+  }
+  .client-review p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .span_1_of_2 {
+    width: 49.2%;
+    margin-left: 0;
+  }
+  .span_1_of_4 {
+    width: 49.2%;
+    margin-left: 0;
+  }
+  .testimonial .col:nth-child(3), .testimonial .col:nth-child(4) {
+    margin-top: 4rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 52.5%;
+  }
+  header {
+    height: 50vh;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .client-review p {
+    font-size: 1.6rem;
+  }
+  .testimonial .col {
+    margin-left: 0;
+  }
+  .testimonial .span_1_of_2 {
+    padding: 0;
+    margin-left: 0;
+    width: 50%;
+  }
+  .span_1_of_4 {
+    padding: 0;
+    margin-left: 0;
+    width: 49.2%;
+  }
+  .testimonial .col:nth-child(3), .testimonial .col:nth-child(4) {
+    margin-top: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 48.5%;
+  }
+  header {
+    height: 65vh;
+  }
+  .span_1_of_4 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .span_1_of_2 {
+    width: 100%;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+    margin-top: -0.5rem;
+  }
+  .client-review {
+    margin-top: 0;
+  }
+  .client-review p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .description {
+    width: 90%;
+    padding-left: 0;
+    margin-left: 5%;
+  }
+  .testimonial .col:nth-child(3),
+  .testimonial .col:nth-child(4) {
+    margin-top: 2rem;
+  }
+}
